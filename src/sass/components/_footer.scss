@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $primary1;
+    padding: 8px 0;
+
+    &__link-contaier {
+        display: flex;
+        align-items: center;
+    }
+
+    &__link {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 19px;
+        color: #000000;
+
+    }
+}

@@ -1,0 +1,46 @@
+.favorite-films {
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    z-index: 11;
+    width: 50%;
+    background-color: $primary1;
+    transition: 200ms ease;
+
+    .card-container {
+        max-width: 216px;
+        margin: 25px;
+    }
+
+    &::-webkit-scrollbar {
+        width: 10px;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+        background: #399076;
+        border-radius: 10px;
+        
+        
+        }
+        
+        &::-webkit-scrollbar-thumb:hover {
+        background: #2D735E;
+        }
+    .card__poster {
+        height: 256px;
+        width: 216px;
+        object-fit: cover;
+    }
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+.hidden {
+    transform: translateX(100%);
+}

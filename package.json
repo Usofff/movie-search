@@ -1,0 +1,48 @@
+{
+  "name": "movie-search",
+  "version": "1.0.0",
+  "description": "Movie search app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development",
+    "start": "webpack serve",
+    "eslint": "npx eslint --ext .js src --fix",
+    "format": "npx prettier --write ./src",
+    "lint-staged": "npx eslint --fix ./ --max-warnings 0 && npx prettier --write ."
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "movie search"
+  ],
+  "author": "Ilya Usov <iusov41@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^6.7.0",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "2.5.1",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "swiper": "^8.0.7"
+  }
+}
