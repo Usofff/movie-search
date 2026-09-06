@@ -2,7 +2,7 @@ import favoriteImage from '../../../assets/svg/favorite.svg'
 
 class Header {
     static TextObject = {
-        MainTitle: 'Movie Serach',
+        MainTitle: 'Movie Search',
     }
 
     constructor(){
