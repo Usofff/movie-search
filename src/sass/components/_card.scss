@@ -1,0 +1,47 @@
+.card {
+    &__title {
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration-line: underline;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &__poster {
+        width: 212px;
+        height: 300px;
+        border-radius: 30px;
+        margin-top: 25px;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+
+        &-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 25px;
+            padding-top: 10px;
+        }
+    }
+
+    &__rating-wrapper {
+        display: flex;
+    }
+
+    &__rating {
+        padding-left: 20px;
+    }
+    
+    &__favorite-button {
+        align-self: flex-start;
+        margin-left: auto;
+        cursor: pointer;
+    }
+}

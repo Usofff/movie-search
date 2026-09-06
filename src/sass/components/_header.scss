@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $primary1;
+    padding: 30px 85px;
+
+    &__title {
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 37px;
+        color: #000000;
+    }
+
+    &__favorite-button {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    @media (max-width: 1023px) {
+        padding: 25px 80px;
+        
+        &__title {
+            font-size: 25px;
+        }
+    }
+    @media (max-width: 424px) {
+        padding: 5px 30px;
+        
+        &__title {
+            font-size: 20px;
+        }
+    }
+
+}

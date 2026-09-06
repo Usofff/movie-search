@@ -1,0 +1,44 @@
+.cards-container {
+    margin-top: 50px;
+    display: flex;
+    width: 1200px;
+    position: relative;
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: #000;
+    }
+
+    .swiper-pagination {
+        display: flex;
+        justify-content: center;
+        &-bullet {
+            align-self: center;
+            background-color: #50482D;
+            width: 13px;
+            height: 13px;
+            
+    
+            &-active {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    @media (max-width: 1439px) {
+        width: 1000px;
+    }   
+    @media (max-width: 1023px) {
+        width: 636px;
+    }
+    @media (max-width: 767px) {
+        .swiper-button-prev,
+        .swiper-button-next {
+            display: none;
+        }
+        width: 280px;
+        
+    }    
+    
+}
