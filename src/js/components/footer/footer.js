@@ -2,7 +2,7 @@ import gitHubIcon from '../../../assets/svg/github-icon.svg';
 
 class Footer {
     static TextObject = {
-        CompanyName: 'Innowise Group',
+        CompanyName: 'BSUIR',
         GitHubUserName: 'Usofff',
     }
 
@@ -30,7 +30,7 @@ class Footer {
     
 
     render() {
-        const companyLink = this.createFooterLink(Footer.TextObject.CompanyName, 'https://innowise-group.com/');
+        const companyLink = this.createFooterLink(Footer.TextObject.CompanyName, 'https://bsuir.by/');
         const gitHubLink = this.createFooterLink(Footer.TextObject.GitHubUserName, 'https://github.com/usofff',gitHubIcon);
         this.container.append(companyLink);
         this.container.append(gitHubLink);
