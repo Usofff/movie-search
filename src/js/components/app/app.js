@@ -1,6 +1,6 @@
 import Header from '../header/header';
 import Footer from '../footer/footer';
-import Main from '../mian/main';
+import Main from '../main/main';
 import SwiperComponent from '../swiper/swiper';
 import FetchFilms from '../../core/api';
 import { FavFilms } from '../../core/api/favoriteFilms';
